@@ -1,0 +1,33 @@
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 7px;
+  margin: 10px;
+}
+.avatar-container {
+  display: flex;
+}
+
+.blog-image {
+  height: 25vh;
+  width: 21vw;
+  margin: 10px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.avatar-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+.title {
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
